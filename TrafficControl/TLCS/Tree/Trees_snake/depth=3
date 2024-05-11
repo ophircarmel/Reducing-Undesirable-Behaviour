@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Equality of E2W and N2S at index 1 <= 0.5\ngini = 0.5\nsamples = 74048\nvalue = [37024.0, 37024.0]\nclass = Desirable", fillcolor="#ffffff"] ;
+1 [label="Value of index 0 at category ACT <= 0.5\ngini = 0.313\nsamples = 14589\nvalue = [20826.654, 5030.501]\nclass = Undesirable", fillcolor="#eb9f69"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Value of index 2 at category ACT <= 0.5\ngini = 0.245\nsamples = 9908\nvalue = [17299.728, 2888.497]\nclass = Undesirable", fillcolor="#e9965a"] ;
+1 -> 2 ;
+3 [label="gini = 0.106\nsamples = 5222\nvalue = [13420.459, 802.522]\nclass = Undesirable", fillcolor="#e78945"] ;
+2 -> 3 ;
+4 [label="gini = 0.455\nsamples = 4686\nvalue = [3879.27, 2085.974]\nclass = Undesirable", fillcolor="#f3c5a3"] ;
+2 -> 4 ;
+5 [label="Value of index 1 at category E2W <= 0.5\ngini = 0.47\nsamples = 4681\nvalue = [3526.926, 2142.005]\nclass = Undesirable", fillcolor="#f5ceb1"] ;
+1 -> 5 ;
+6 [label="gini = 0.128\nsamples = 3294\nvalue = [139.542, 1899.205]\nclass = Desirable", fillcolor="#48a4e7"] ;
+5 -> 6 ;
+7 [label="gini = 0.125\nsamples = 1387\nvalue = [3387.384, 242.799]\nclass = Undesirable", fillcolor="#e78a47"] ;
+5 -> 7 ;
+8 [label="Equality of W2E and S2N at index 1 <= 0.5\ngini = 0.446\nsamples = 59459\nvalue = [16197.346, 31993.499]\nclass = Desirable", fillcolor="#9dcff2"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Value of index 2 at category ACT <= 0.5\ngini = 0.333\nsamples = 7227\nvalue = [9705.151, 2594.336]\nclass = Undesirable", fillcolor="#eca36e"] ;
+8 -> 9 ;
+10 [label="gini = 0.268\nsamples = 4921\nvalue = [8051.577, 1525.084]\nclass = Undesirable", fillcolor="#ea995f"] ;
+9 -> 10 ;
+11 [label="gini = 0.477\nsamples = 2306\nvalue = [1653.574, 1069.251]\nclass = Undesirable", fillcolor="#f6d2b9"] ;
+9 -> 11 ;
+12 [label="Equality of W2TL and N2S at index 1 <= 0.5\ngini = 0.296\nsamples = 52232\nvalue = [6492.195, 29399.163]\nclass = Desirable", fillcolor="#65b3eb"] ;
+8 -> 12 ;
+13 [label="gini = 0.331\nsamples = 2289\nvalue = [3094.345, 818.281]\nclass = Undesirable", fillcolor="#eca26d"] ;
+12 -> 13 ;
+14 [label="gini = 0.19\nsamples = 49943\nvalue = [3397.849, 28580.882]\nclass = Desirable", fillcolor="#51a9e8"] ;
+12 -> 14 ;
+}

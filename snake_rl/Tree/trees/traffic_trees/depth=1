@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Average of indices 0 ,1 at lane APL <= 0.25\ngini = 0.5\nsamples = 16185\nvalue = [8092.5, 8092.5]\nclass = Desirable", fillcolor="#ffffff"] ;
+1 [label="gini = 0.206\nsamples = 6116\nvalue = [470.814, 3563.856]\nclass = Desirable", fillcolor="#53aae8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.468\nsamples = 10069\nvalue = [7621.686, 4528.644]\nclass = Undesirable", fillcolor="#f4ccaf"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Average of indices 0 ,1 ,2 ,3 ,4 ,5 ,6 at lane N2S <= 0.07\ngini = 0.5\nsamples = 74048\nvalue = [37024.0, 37024.0]\nclass = Desirable", fillcolor="#ffffff"] ;
+1 [label="gini = 0.394\nsamples = 44912\nvalue = [9115.586, 24687.92]\nclass = Desirable", fillcolor="#82c1ef"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.425\nsamples = 29136\nvalue = [27908.414, 12336.08]\nclass = Undesirable", fillcolor="#f0b991"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

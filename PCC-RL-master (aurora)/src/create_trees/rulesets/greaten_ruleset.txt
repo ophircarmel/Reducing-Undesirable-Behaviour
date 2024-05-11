@@ -1,0 +1,6 @@
+# The numbers become smaller - the conditions are better
+i8 > i9
+i7 > i8
+i6 > i7
+i5 < 18
+R < 0

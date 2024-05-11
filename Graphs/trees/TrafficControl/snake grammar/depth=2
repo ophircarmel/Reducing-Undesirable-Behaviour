@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Equality of E2W and N2S at index 1 <= 0.5\ngini = 0.5\nsamples = 74048\nvalue = [37024.0, 37024.0]\nclass = Desirable", fillcolor="#ffffff"] ;
+1 [label="Value of index 0 at category ACT <= 0.5\ngini = 0.313\nsamples = 14589\nvalue = [20826.654, 5030.501]\nclass = Undesirable", fillcolor="#eb9f69"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.245\nsamples = 9908\nvalue = [17299.728, 2888.497]\nclass = Undesirable", fillcolor="#e9965a"] ;
+1 -> 2 ;
+3 [label="gini = 0.47\nsamples = 4681\nvalue = [3526.926, 2142.005]\nclass = Undesirable", fillcolor="#f5ceb1"] ;
+1 -> 3 ;
+4 [label="Equality of W2E and S2N at index 1 <= 0.5\ngini = 0.446\nsamples = 59459\nvalue = [16197.346, 31993.499]\nclass = Desirable", fillcolor="#9dcff2"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.333\nsamples = 7227\nvalue = [9705.151, 2594.336]\nclass = Undesirable", fillcolor="#eca36e"] ;
+4 -> 5 ;
+6 [label="gini = 0.296\nsamples = 52232\nvalue = [6492.195, 29399.163]\nclass = Desirable", fillcolor="#65b3eb"] ;
+4 -> 6 ;
+}

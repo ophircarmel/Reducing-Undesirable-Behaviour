@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Average of indices 0 ,1 ,2 ,3 ,4 ,5 ,6 at lane E2W <= 0.07\ngini = 0.5\nsamples = 74048\nvalue = [37024.0, 37024.0]\nclass = Desirable", fillcolor="#ffffff"] ;
+1 [label="Average of indices 0 ,1 ,2 ,3 ,4 ,5 ,6 at lane N2S <= 0.215\ngini = 0.394\nsamples = 44946\nvalue = [9143.494, 24703.095]\nclass = Desirable", fillcolor="#82c1ef"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.247\nsamples = 40652\nvalue = [3886.247, 23076.455]\nclass = Desirable", fillcolor="#5aaee9"] ;
+1 -> 2 ;
+3 [label="gini = 0.361\nsamples = 4294\nvalue = [5257.248, 1626.64]\nclass = Undesirable", fillcolor="#eda876"] ;
+1 -> 3 ;
+4 [label="ACTION = EW <= 0.5\ngini = 0.425\nsamples = 29102\nvalue = [27880.506, 12320.905]\nclass = Undesirable", fillcolor="#f0b990"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.352\nsamples = 18833\nvalue = [23770.992, 7014.92]\nclass = Undesirable", fillcolor="#eda673"] ;
+4 -> 5 ;
+6 [label="gini = 0.492\nsamples = 10269\nvalue = [4109.514, 5305.985]\nclass = Desirable", fillcolor="#d2e9f9"] ;
+4 -> 6 ;
+}

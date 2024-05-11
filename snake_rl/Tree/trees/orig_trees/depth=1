@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Are the categories DIR and ACT equal at index 3 <= 0.5\ngini = 0.5\nsamples = 21478\nvalue = [10739.0, 10739.0]\nclass = Undesirable", fillcolor="#ffffff"] ;
+1 [label="gini = 0.182\nsamples = 7844\nvalue = [8895.517, 1005.046]\nclass = Undesirable", fillcolor="#e88f4f"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.268\nsamples = 13634\nvalue = [1843.483, 9733.954]\nclass = Desirable", fillcolor="#5eb0ea"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

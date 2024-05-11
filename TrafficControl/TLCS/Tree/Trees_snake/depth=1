@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Equality of E2W and N2S at index 1 <= 0.5\ngini = 0.5\nsamples = 74048\nvalue = [37024.0, 37024.0]\nclass = Desirable", fillcolor="#ffffff"] ;
+1 [label="gini = 0.313\nsamples = 14589\nvalue = [20826.654, 5030.501]\nclass = Undesirable", fillcolor="#eb9f69"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.446\nsamples = 59459\nvalue = [16197.346, 31993.499]\nclass = Desirable", fillcolor="#9dcff2"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

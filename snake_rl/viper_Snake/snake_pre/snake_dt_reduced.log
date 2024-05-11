@@ -1,0 +1,163 @@
+Student reward: 679.0
+Iteration 1/2
+Training student with 3718 points
+Train accuracy: 0.9902488231338265
+Test accuracy: 0.9865591397849462
+Number of nodes: 97
+Student reward: 566.0
+Initial policy count: 2
+Current policy count: 1
+Reward update: 679.0 -> 260.0
+Number of nodes: 85
+Iteration 0/20
+Training student with 3227 points
+Train accuracy: 0.9910887253002713
+Test accuracy: 0.9891640866873065
+Number of nodes: 87
+Student reward: 437.8
+Iteration 1/20
+Training student with 6495 points
+Train accuracy: 0.9917244033872209
+Test accuracy: 0.9930715935334873
+Number of nodes: 129
+Student reward: 428.0
+Iteration 2/20
+Training student with 9821 points
+Train accuracy: 0.9931262729124236
+Test accuracy: 0.9928753180661578
+Number of nodes: 133
+Student reward: 35.5
+Iteration 3/20
+Training student with 10749 points
+Train accuracy: 0.9904640074427259
+Test accuracy: 0.9920930232558139
+Number of nodes: 149
+Student reward: 457.9
+Iteration 4/20
+Training student with 14201 points
+Train accuracy: 0.9915492957746479
+Test accuracy: 0.9915522703273495
+Number of nodes: 163
+Student reward: 348.0
+Iteration 5/20
+Training student with 16965 points
+Train accuracy: 0.9931476569407603
+Test accuracy: 0.9935160624815798
+Number of nodes: 167
+Student reward: 499.3
+Iteration 6/20
+Training student with 20751 points
+Train accuracy: 0.9930722891566265
+Test accuracy: 0.9915682967959528
+Number of nodes: 163
+Student reward: 417.0
+Iteration 7/20
+Training student with 23901 points
+Train accuracy: 0.9926255230125522
+Test accuracy: 0.993516000836645
+Number of nodes: 197
+Student reward: 387.0
+Iteration 8/20
+Training student with 26910 points
+Train accuracy: 0.9930323299888517
+Test accuracy: 0.9890375325157934
+Number of nodes: 211
+Student reward: 435.1
+Iteration 9/20
+Training student with 30255 points
+Train accuracy: 0.9922740042968105
+Test accuracy: 0.9937200462733432
+Number of nodes: 207
+Student reward: 474.1
+Iteration 10/20
+Training student with 33903 points
+Train accuracy: 0.9935476734754074
+Test accuracy: 0.9943961067689131
+Number of nodes: 213
+Student reward: 325.4
+Iteration 11/20
+Training student with 36504 points
+Train accuracy: 0.9919528815532651
+Test accuracy: 0.9916449801397069
+Number of nodes: 233
+Student reward: 414.6
+Iteration 12/20
+Training student with 39686 points
+Train accuracy: 0.9924404686909412
+Test accuracy: 0.9911816578483245
+Number of nodes: 215
+Student reward: 381.1
+Iteration 13/20
+Training student with 42700 points
+Train accuracy: 0.9924765807962529
+Test accuracy: 0.9920374707259954
+Number of nodes: 251
+Student reward: 375.1
+Iteration 14/20
+Training student with 45658 points
+Train accuracy: 0.9921152056069649
+Test accuracy: 0.9908015768725361
+Number of nodes: 227
+Student reward: 375.2
+Iteration 15/20
+Training student with 48633 points
+Train accuracy: 0.991646532668483
+Test accuracy: 0.9922895034440218
+Number of nodes: 259
+Student reward: 305.1
+Iteration 16/20
+Training student with 51129 points
+Train accuracy: 0.9917609955260005
+Test accuracy: 0.9920790142773322
+Number of nodes: 251
+Student reward: 556.0
+Iteration 17/20
+Training student with 55306 points
+Train accuracy: 0.9919989151071331
+Test accuracy: 0.9927680347134333
+Number of nodes: 257
+Student reward: 408.0
+Iteration 18/20
+Training student with 58441 points
+Train accuracy: 0.9921928473648186
+Test accuracy: 0.9906749935837111
+Number of nodes: 259
+Student reward: 437.2
+Iteration 19/20
+Training student with 61748 points
+Train accuracy: 0.9923883558038787
+Test accuracy: 0.9927125506072875
+Number of nodes: 249
+Student reward: 413.4
+Initial policy count: 20
+Current policy count: 10
+Reward update: 556.0 -> 410.8
+Reward update: 499.3 -> 335.8
+Reward update: 474.1 -> 402.7
+Reward update: 457.9 -> 463.4
+Reward update: 437.8 -> 454.0
+Reward update: 437.2 -> 608.1
+Reward update: 435.1 -> 439.7
+Reward update: 428.0 -> 378.1
+Reward update: 417.0 -> 314.6
+Reward update: 414.6 -> 500.3
+Current policy count: 5
+Reward update: 608.1 -> 320.1
+Reward update: 500.3 -> 497.8
+Reward update: 463.4 -> 349.6
+Reward update: 454.0 -> 370.8
+Reward update: 439.7 -> 522.1
+Current policy count: 3
+Reward update: 522.1 -> 360.5
+Reward update: 497.8 -> 375.2
+Reward update: 370.8 -> -109.0
+Current policy count: 2
+Reward update: 375.2 -> 464.6
+Reward update: 360.5 -> 476.8
+Current policy count: 1
+Reward update: 476.8 -> 406.5
+Number of nodes: 211
+Initial policy count: 20
+Current policy count: 10
+Number of nodes: 211
+Number of nodes: 211

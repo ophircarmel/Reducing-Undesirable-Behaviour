@@ -1,0 +1,7 @@
+# Ruleset for fluctuating
+i9 - i8 > 1
+i8 - i7 > 1
+i7 - i6 > 1
+i9 - i7 < 3
+i8 - i6 < 3
+i8 < 18

@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Average of indices 0 ,1 at lane APL <= 0.25\ngini = 0.5\nsamples = 16185\nvalue = [8092.5, 8092.5]\nclass = Undesirable", fillcolor="#ffffff"] ;
+1 [label="Average of indices 0 ,1 at lane ACT <= 0.25\ngini = 0.187\nsamples = 6181\nvalue = [418.685, 3599.511]\nclass = Desirable", fillcolor="#50a8e8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Value of index 3 at lane DIR <= 0.5\ngini = 0.108\nsamples = 6022\nvalue = [215.592, 3543.557]\nclass = Desirable", fillcolor="#45a3e7"] ;
+1 -> 2 ;
+3 [label="gini = 0.028\nsamples = 3977\nvalue = [34.37, 2360.784]\nclass = Desirable", fillcolor="#3c9ee5"] ;
+2 -> 3 ;
+4 [label="gini = 0.23\nsamples = 2045\nvalue = [181.222, 1182.773]\nclass = Desirable", fillcolor="#57ace9"] ;
+2 -> 4 ;
+5 [label="Average of indices 0 ,1 at lane DIR <= 0.25\ngini = 0.339\nsamples = 159\nvalue = [203.094, 55.954]\nclass = Undesirable", fillcolor="#eca470"] ;
+1 -> 5 ;
+6 [label="gini = 0.123\nsamples = 89\nvalue = [203.094, 14.286]\nclass = Undesirable", fillcolor="#e78a47"] ;
+5 -> 6 ;
+7 [label="gini = -0.0\nsamples = 70\nvalue = [0.0, 41.668]\nclass = Desirable", fillcolor="#399de5"] ;
+5 -> 7 ;
+8 [label="Difference between indices 0, 3 at lane APL <= 0.5\ngini = 0.466\nsamples = 10004\nvalue = [7673.815, 4492.989]\nclass = Undesirable", fillcolor="#f4cbad"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Difference between indices 1, 3 at lane ACT <= 0.5\ngini = 0.362\nsamples = 6107\nvalue = [7242.631, 2255.424]\nclass = Undesirable", fillcolor="#eda877"] ;
+8 -> 9 ;
+10 [label="gini = 0.219\nsamples = 3708\nvalue = [6614.603, 947.052]\nclass = Undesirable", fillcolor="#e99355"] ;
+9 -> 10 ;
+11 [label="gini = 0.438\nsamples = 2399\nvalue = [628.028, 1308.372]\nclass = Desirable", fillcolor="#98ccf1"] ;
+9 -> 11 ;
+12 [label="Average of indices 0 ,1 at lane ACT <= 0.25\ngini = 0.271\nsamples = 3897\nvalue = [431.183, 2237.566]\nclass = Desirable", fillcolor="#5fb0ea"] ;
+8 -> 12 ;
+13 [label="gini = 0.39\nsamples = 136\nvalue = [146.852, 52.978]\nclass = Undesirable", fillcolor="#eeae80"] ;
+12 -> 13 ;
+14 [label="gini = 0.204\nsamples = 3761\nvalue = [284.331, 2184.588]\nclass = Desirable", fillcolor="#53aae8"] ;
+12 -> 14 ;
+}

@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Are the categories DIR and ACT equal at index 3 <= 0.5\ngini = 0.5\nsamples = 21478\nvalue = [10739.0, 10739.0]\nclass = Undesirable", fillcolor="#ffffff"] ;
+1 [label="Are the categories APL and DIR equal at index 3 <= 0.5\ngini = 0.182\nsamples = 7844\nvalue = [8895.517, 1005.046]\nclass = Undesirable", fillcolor="#e88f4f"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Value of index 0 at category DIR <= 0.5\ngini = 0.442\nsamples = 2649\nvalue = [1950.332, 957.451]\nclass = Undesirable", fillcolor="#f2bf9a"] ;
+1 -> 2 ;
+3 [label="gini = 0.067\nsamples = 1073\nvalue = [29.755, 833.704]\nclass = Desirable", fillcolor="#40a0e6"] ;
+2 -> 3 ;
+4 [label="gini = 0.114\nsamples = 1576\nvalue = [1920.577, 123.747]\nclass = Undesirable", fillcolor="#e78946"] ;
+2 -> 4 ;
+5 [label="Are the categories APL and DIR equal at index 1 <= 0.5\ngini = 0.014\nsamples = 5195\nvalue = [6945.185, 47.595]\nclass = Undesirable", fillcolor="#e5823a"] ;
+1 -> 5 ;
+6 [label="gini = 0.381\nsamples = 130\nvalue = [110.907, 38.076]\nclass = Undesirable", fillcolor="#eeac7d"] ;
+5 -> 6 ;
+7 [label="gini = 0.003\nsamples = 5065\nvalue = [6834.278, 9.519]\nclass = Undesirable", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="Are the categories DIR and ACT equal at index 1 <= 0.5\ngini = 0.268\nsamples = 13634\nvalue = [1843.483, 9733.954]\nclass = Desirable", fillcolor="#5eb0ea"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Are the categories APL and DIR equal at index 2 <= 0.5\ngini = 0.462\nsamples = 2250\nvalue = [1547.282, 877.333]\nclass = Undesirable", fillcolor="#f4c8a9"] ;
+8 -> 9 ;
+10 [label="gini = 0.405\nsamples = 877\nvalue = [221.813, 565.586]\nclass = Desirable", fillcolor="#87c3ef"] ;
+9 -> 10 ;
+11 [label="gini = 0.308\nsamples = 1373\nvalue = [1325.469, 311.747]\nclass = Undesirable", fillcolor="#eb9f68"] ;
+9 -> 11 ;
+12 [label="Are the categories DIR and ACT equal at index 0 <= 0.5\ngini = 0.063\nsamples = 11384\nvalue = [296.202, 8856.621]\nclass = Desirable", fillcolor="#40a0e6"] ;
+8 -> 12 ;
+13 [label="gini = 0.35\nsamples = 328\nvalue = [296.202, 86.464]\nclass = Undesirable", fillcolor="#eda673"] ;
+12 -> 13 ;
+14 [label="gini = 0.0\nsamples = 11056\nvalue = [0.0, 8770.157]\nclass = Desirable", fillcolor="#399de5"] ;
+12 -> 14 ;
+}

@@ -1,0 +1,16 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Are the categories DIR and ACT equal at index 3 <= 0.5\ngini = 0.5\nsamples = 21478\nvalue = [10739.0, 10739.0]\nclass = Undesirable", fillcolor="#ffffff"] ;
+1 [label="Are the categories APL and DIR equal at index 3 <= 0.5\ngini = 0.182\nsamples = 7844\nvalue = [8895.517, 1005.046]\nclass = Undesirable", fillcolor="#e88f4f"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.442\nsamples = 2649\nvalue = [1950.332, 957.451]\nclass = Undesirable", fillcolor="#f2bf9a"] ;
+1 -> 2 ;
+3 [label="gini = 0.014\nsamples = 5195\nvalue = [6945.185, 47.595]\nclass = Undesirable", fillcolor="#e5823a"] ;
+1 -> 3 ;
+4 [label="Are the categories DIR and ACT equal at index 1 <= 0.5\ngini = 0.268\nsamples = 13634\nvalue = [1843.483, 9733.954]\nclass = Desirable", fillcolor="#5eb0ea"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.462\nsamples = 2250\nvalue = [1547.282, 877.333]\nclass = Undesirable", fillcolor="#f4c8a9"] ;
+4 -> 5 ;
+6 [label="gini = 0.063\nsamples = 11384\nvalue = [296.202, 8856.621]\nclass = Desirable", fillcolor="#40a0e6"] ;
+4 -> 6 ;
+}
